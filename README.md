@@ -8,7 +8,7 @@ TODO **REMOVE LATER!**:
 4.	A Results section that contains the phylogenetic tree (not the alignment), a statement of the answer to the question, and a brief explanation why.
 
 ## Background
-The data consists of six samples from the organism XXXX.  This organism is a XXXX, which XXXX (XXCitation).
+The data consists of six samples from the organism XXXX.  This organism is a Zaire ebolavirus, which XXXX ([NIH Reference](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=186538)).
 
 ## Purpose
 The purpose of this project is to create a phylogenetic tree from six samples of XXX in order to determine the evolutionary relationship between the samples.
@@ -16,6 +16,7 @@ The purpose of this project is to create a phylogenetic tree from six samples of
 ## Methods
 Include information about...
 - Sequencing reads (NGS Next-generation sequencing)
+- Used BLAST (link XXX) with data taken from t#_out/final.contigs.fa file for each sample
 - Assembly using MEGAHIT (link XXX)
 - Alignment using R package DECIPHER
 - Tree using ML method in R package XXXX
