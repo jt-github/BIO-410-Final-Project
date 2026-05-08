@@ -8,7 +8,7 @@ The data consists of six samples from the organism Zaire ebolavirus.  The organi
 The purpose of this project is to create a phylogenetic tree from six samples of Zaire ebolavirus in order to determine the evolutionary relationship between the samples.
 
 ## Methods
-Reads were sequenced using next-generation sequencing (NGS).  Assembly was completed using [MEGAHIT](https://github.com/voutcn/megahit). Then, [BLAST](https://blast.ncbi.nlm.nih.gov/) was used to identify the organism with data taken from `final.contigs.fa` in the `t#_out` directories.  Alignment and Tree generation was completed using the ML method, both with R package DECIPHER.
+Reads were sequenced using next-generation sequencing (NGS).  Assembly was completed using [MEGAHIT](https://github.com/voutcn/megahit). Then, [BLAST](https://blast.ncbi.nlm.nih.gov/) was used to identify the organism with data taken from `final.contigs.fa` in the `t#_out` directories.  Alignment was done using R package DECIPHER.  Finally, tree generation (using the ML method) was completed using the same package.
 
 Raw sequencing reads (source samples) can be found in the `source` directory.  The MEGAHIT generated files are in the various `t#_out` directories.  The output files (browseable HTML file and PNG image) are in the `output` directory.
 
